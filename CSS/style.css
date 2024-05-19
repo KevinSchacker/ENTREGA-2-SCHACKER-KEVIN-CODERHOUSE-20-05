@@ -1,0 +1,194 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../img/fondo/fondo2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 60px; /* Ajusta el espacio para el menú de navegación fijo */
+    background-attachment: fixed;
+}
+
+.navbar {
+    background-color: transparent !important;
+}
+/* Media queries para pantallas más pequeñas, como celulares */
+@media (max-width: 576px) {
+    body {
+        padding-top: 56px; /* Ajuste para menú de navegación fijo en dispositivos móviles */
+    }
+
+
+    .navbar-brand img {
+        max-width: 350px!important; /* Ajuste el tamaño máximo del logo en dispositivos móviles */
+        margin-right: 10px!important; /* Ajuste el margen derecho del logo en dispositivos móviles */
+    }
+}
+
+.navbar.navbar-dark .navbar-nav .nav-link {
+    color: #fff; /* Cambia el color del texto del menú a blanco */
+}
+
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+#titleppl {
+    text-align: center; 
+    max-width: 400px;
+}
+
+#titleppl img {
+    max-width: 20px; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Incluye el modelo de caja */
+    background-image: url(../img/fondo/fondo2.jpg); /* Ruta de la imagen de fondo */
+    background-size: cover !important; /* Escalar la imagen para cubrir todo el fondo */
+    background-position: center; /* Posicionar la imagen en el centro */
+    background-repeat: no-repeat; /* Evitar que la imagen de fondo se repita */
+}
+
+#productos {
+    text-align: center;
+}
+
+*
+
+/* Estilos para el slider de productos */
+.productos-slider {
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    flex-wrap: nowrap;
+}
+
+.productos-slider div {
+    flex: 0 0 33.33%;
+    margin: 0;
+    padding: 0;
+}
+
+.productos-slider img {
+    max-width: 70%;
+    height: auto;
+}
+
+/* Estilos para el pie de página */
+footer {
+    text-align: center;
+    background-color:transparent;
+    padding: 10px;
+    font-size: 14px;
+    font-family: monospace;
+    font-weight: bold;
+    color: #050505;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+#redes-sociales {
+    text-align: center;
+    margin-bottom: 40px;
+}
+#redes-sociales img {
+    max-width: 50px; /* Ajusta el tamaño máximo de las imágenes */
+    height: auto; /* Mantiene la proporción de aspecto */
+    margin-right: 10px; /* Ajusta el margen derecho entre los íconos */
+}
+#tecnologia h2,
+#productos h1,
+#seguridad h2,
+#redes-sociales h2 {
+    text-align: center;
+    font-weight: bold;
+    color: rgb(134, 29, 34);
+}
+.carousel-item img {
+    max-width: 100%; /* Establece el ancho máximo de las imágenes del carrusel */
+    max-height: 70vh; /* Establece la altura máxima de las imágenes del carrusel */
+    width: auto; /* Ancho automático para mantener la relación de aspecto */
+    height: auto; /* Altura automática para mantener la relación de aspecto */
+    display: block; /* Asegura que la imagen sea un elemento de bloque */
+    margin: 0 auto; /* Centra horizontalmente las imágenes */
+    object-fit: contain; /* Escala la imagen para que quepa dentro de su contenedor manteniendo su relación de aspecto */
+}
+
+.logo-img {
+    width: 50px; 
+}
+
+/* Estilos para centrar el logo */
+.navbar-brand {
+    margin-right: flex;
+    margin-left: flex;
+}
+
+/* Estilos para el menú */
+.navbar-nav {
+    width: 20%; /* Ajusta el ancho del menú según sea necesario */
+}
+
+/* Estilos para los enlaces del menú */
+.navbar-nav .nav-link {
+    font-size: 24px; /* Tamaño de fuente más grande */
+    color: #000000; /* Color de fuente */
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    margin-top: auto;
+    color: black;
+    background-color: rgb(134, 29, 34);
+}
+
+.card-body .btn.btn-primary:hover {
+    background-color: #34fd02 ;
+    border-color: #000000 ;
+    color: #000000 ;
+    font-weight: bold;
+}
+.seguridad .nosotros{
+    max-width: 800px; /* Limita el ancho del contenido  */
+    margin: 0 auto; 
+    padding: 20px; 
+}
+
+.nosotros h1 , .seguridad h1{
+    text-align: center; /* Centra el título horizontalmente */
+    color: rgb(134, 29, 34); /* Color logo de la marca*/
+}
+.nosotros p , .seguridad p {
+    line-height: 2; /* Ajusta la altura de línea para una mejor legibilidad */
+    text-align: justify; /* Justifica el texto para un aspecto más limpio */
+    color: #000000; /* Color del texto del párrafo */
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.ubi {
+    display: block;
+    margin: 0 auto; 
+}
+.carousel-control-prev,
+.carousel-control-next {
+    display: none;
+}
