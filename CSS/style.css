@@ -184,9 +184,11 @@ footer {
     margin-left: 40px;
     margin-right: 40px;
 }
-.ubi {
-    display: block;
-    margin: 0 auto; 
+.map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
 }
 .carousel-control-prev,
 .carousel-control-next {
