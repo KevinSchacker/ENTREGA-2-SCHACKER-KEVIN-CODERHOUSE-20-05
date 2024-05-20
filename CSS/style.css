@@ -110,7 +110,7 @@ body {
 /* Estilos para el pie de página */
 footer {
     text-align: center;
-    background-color:rgb(121, 120, 120);
+    background-color:transparent;
     padding: 10px;
     font-size: 14px;
     font-family: monospace;
