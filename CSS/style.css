@@ -10,17 +10,43 @@ body {
 .navbar {
     background-color: transparent !important;
 }
-/* Media queries para pantallas más pequeñas, como celulares */
-@media (max-width: 576px) {
+/* medida notebooks */
+@media (max-width: 1280px) {
     body {
-        padding-top: 56px; /* Ajuste para menú de navegación fijo en dispositivos móviles */
+        padding-top: 10px!important; /* Ajuste para menú de navegación fijo en dispositivos móviles */
     }
-
 
     .navbar-brand img {
         max-width: 350px!important; /* Ajuste el tamaño máximo del logo en dispositivos móviles */
         margin-right: 10px!important; /* Ajuste el margen derecho del logo en dispositivos móviles */
     }
+
+    .navbar-nav {
+        text-align:right !important; /* Centrar el texto en los elementos del menú */
+    }
+
+    .navbar-collapse {
+        justify-content: justify!important; /* Alineación del contenido del menú al inicio */
+        padding-right: 80px!important;
+    }
+
+    .navbar-toggler {
+        margin-left: auto!important; /* Mover el botón de colapso al lado derecho */
+    }
+   
+
+/* pantalla celulares */
+@media (max-width: 768px) {
+    .navbar-brand img {
+        max-width: 250px!important; /* Reducir aún más el tamaño del logo */
+    }
+
+    .navbar-nav .nav-item {
+        margin-bottom: 10px!important; /* Espacio entre los elementos del menú */
+    }
+}
+
+    
 }
 
 .navbar.navbar-dark .navbar-nav .nav-link {
